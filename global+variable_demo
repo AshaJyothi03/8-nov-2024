@@ -1,0 +1,12 @@
+#demo about global variable:
+
+total=0
+def total_sal(sal):
+  global total
+  total=sal+5000
+  print("total salary and bonus:",total)
+def emi_deduction(sal):
+  total=sal-2500
+  print("total salary after emi deduction:",total)
+print(total_sal(10000))
+print(emi_deduction(10000))
