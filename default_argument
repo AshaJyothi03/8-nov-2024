@@ -1,0 +1,9 @@
+#pension eligibility:
+def pension_eligibility(n,aadhar,p,age=50):
+  if age>=50:
+    print("eligible for pension")
+  else:
+    print("not eligible for pension")
+print(pension_eligibility("mal","223344556677","9000950022",52))
+print(pension_eligibility("somla","889944556633","9704144125"))
+print(pension_eligibility("ramu","834944556633","9984144125",45))
