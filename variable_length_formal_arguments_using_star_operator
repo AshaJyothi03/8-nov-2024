@@ -1,0 +1,8 @@
+#VARIABLE LENGHT FORMAL ARGUMENTS
+def sum(*vec):
+  total=0
+  for i in vec:
+    total=total+i
+  return total
+print(sum(10,20))
+print(sum(10,20,30,40))
