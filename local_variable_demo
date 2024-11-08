@@ -1,0 +1,10 @@
+#demo about local  variable
+def total_sal(sal):
+  total=0 #local variable
+  total=sal+5000
+  print("total salary after added bonus:",total)
+def emi_deduction(sal):
+  #can we want to access total variable?
+  #ans: NO
+  pass
+print(total_sal(15000))
