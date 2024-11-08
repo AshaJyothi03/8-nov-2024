@@ -1,0 +1,22 @@
+'''Create a function that takes a variable number of arguments representing prices of 
+items in a shopping cart. The function should return the total price. Also, apply a 
+discount if the total amount exceeds a certain threshold. 
+Requirements: 
+ Apply a 10% discount if the total is more than $100.'''
+
+def total_items(*items):
+    total=0
+    for i in items:
+        total+=i
+        if total<100:
+            print("total items price:", total)
+        else:
+            print("total items price:", total)
+            discount=total*(10/100)
+            after_discount_total=total-discount
+            print("after discount items price:",after_discount_total)
+
+
+print(total_items(23,45,21,78))
+
+
