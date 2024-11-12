@@ -1,0 +1,9 @@
+#Function to Find the Sum of Digits of a Number
+def sum_of_digits(n):
+    sum=0
+    while (n>0):
+        mod=n%10
+        sum=sum+mod
+        n=n//10
+    print("sum of digits of a number:",sum)
+print(sum_of_digits(1234))
