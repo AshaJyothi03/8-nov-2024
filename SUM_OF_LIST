@@ -1,0 +1,8 @@
+#Function to Calculate Sum of a List
+def sum_of_list():
+    list1=[12,23,34,54,22]
+    temp=0
+    for i in list1:
+        temp=temp+i
+    print(temp)
+print(sum_of_list())
