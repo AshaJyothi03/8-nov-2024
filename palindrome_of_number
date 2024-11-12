@@ -1,0 +1,22 @@
+#Function to Check if a Number is a Palindrome
+def palindrome_num():
+
+    n=12321
+    num=n
+    res=0
+    while (num>0):
+        mod = num % 10
+        res = (res*10)+mod
+        num=num//10
+    if res==n:
+        print("palindrome")
+    else:
+        print("not palindrome")
+
+print(palindrome_num())
+
+
+
+
+
+
